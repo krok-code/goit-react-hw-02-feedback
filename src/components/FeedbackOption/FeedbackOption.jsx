@@ -4,9 +4,9 @@ import { Button } from './FeedbackOption.styled';
 export function FeedbackOption({ options, addFeedback }) {
   return (
     <div>
-      {options.map(options => (
-        <Button key={options} name={options} onClick={addFeedback}>
-          {options}
+      {options.map(option => (
+        <Button key={option} name={option} onClick={addFeedback}>
+          {option}
         </Button>
       ))}
     </div>

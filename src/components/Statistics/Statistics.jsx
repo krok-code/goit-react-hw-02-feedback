@@ -1,6 +1,6 @@
 import propTypes from 'prop-types';
 
-export function Statistic({
+export function Statistics({
   good,
   bad,
   neutral,
@@ -22,7 +22,7 @@ export function Statistic({
   );
 }
 
-Statistic.propTypes = {
+Statistics.propTypes = {
   good: propTypes.number.isRequired,
   bad: propTypes.number.isRequired,
   neutral: propTypes.number.isRequired,

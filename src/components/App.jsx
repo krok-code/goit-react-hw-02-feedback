@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { FeedbackOption } from './FeedbackOption/FeedbackOption';
+import { FeedbackOption } from './FeedbackOption/FeedbackOprion';
 import { Statistics } from './Statistics/Statistics';
 import { GlobalStyle } from './GlobalStyle';
 import { Notification } from './Notification/Notification';
@@ -27,7 +27,7 @@ export class App extends Component {
   countPositiveFeedbackPercentage = () => {
     if (this.state.good) {
       const feedbackPercentage = Math.round(
-        this.state.good / (this.countTotalFeedback() * 100)
+        this.state.good / (this.countTotalFeedback() / 100)
       );
       return feedbackPercentage;
     }

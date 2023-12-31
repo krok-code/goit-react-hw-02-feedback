@@ -6,10 +6,12 @@ export const SectionWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: 50%;
+  /* background-color: #fff; */
   padding: 20px;
   margin: 0 auto;
   transition: 1.5s;
   color: #000;
+
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin-bottom: 20px;
