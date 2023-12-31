@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { FeedbackOption } from './FeedbackOption/FeedbackOprion';
+import { FeedbackOption } from './FeedbackOption/FeedbackOption';
 import { Statistics } from './Statistics/Statistics';
 import { GlobalStyle } from './GlobalStyle';
 import { Notification } from './Notification/Notification';
