@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   transition: 1.5s;
   background-color: #d9dae0;
 }
+
 main {
   font-family: 'Playfair Display', serif;
   display: flex;
@@ -28,15 +29,18 @@ main {
   width: 100%;
   ${'' /* min-height: 100vh; */}
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 body::-webkit-scrollbar {
   appearance: none;
   background: #000;
   width: 5px;
 }
+
 body::-webkit-scrollbar-thumb {
   background: white;
   border-radius: 5px;
@@ -44,10 +48,14 @@ body::-webkit-scrollbar-thumb {
 section {
   margin-top: 50px;
 }
+
 img {
   display: block;
     ${'' /* width: 100%; */}
     object-fit: cover;
     object-position: center center;
+}
+ul {
+  list-style: none;
 }
 `;
