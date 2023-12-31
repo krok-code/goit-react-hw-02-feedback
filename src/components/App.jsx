@@ -36,7 +36,7 @@ export class App extends Component {
           good={this.state.good}
           neutral={this.state.neutral}
           bad={this.state.bad}
-          title="Statistics"
+          title="Statistic"
           totalFeedback={this.countTotalFeedback()}
         ></Statistics>
       </div>
